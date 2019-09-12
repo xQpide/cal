@@ -127,7 +127,7 @@ var globalSubscribedCalendars = {
         color: '#ff0000',
         typeList: ['vevent', 'vtodo']
     },{
-        displayName: 'Master SFPN',
+        displayName: 'Master DAC',
         href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/SFPN/M2_DAC',
         userAuth: {
             userName: 'student.master',
