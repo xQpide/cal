@@ -94,6 +94,22 @@ var globalAccountSettings = [{
         ignoreAlarms: true,
         backgroundCalendars: []
     },
+    {
+        href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/IMA/',
+        hrefLabel: 'Master IMA',
+        forceReadOnly: true,
+        settingsAccount: true,
+        checkContentType: true,
+        userAuth: {
+            userName: 'student.master',
+            userPassword: 'guest'
+        },
+        timeOut: 90000,
+        lockTimeOut: 10000,
+        delegation: false,
+        ignoreAlarms: true,
+        backgroundCalendars: []
+    },
     /*{
         href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/SFPN/',
         hrefLabel: 'Master SFPN',
