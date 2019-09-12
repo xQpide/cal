@@ -152,6 +152,16 @@ var globalSubscribedCalendars = {
         ignoreAlarm: true,
         color: '#ff0000',
         typeList: ['vevent', 'vtodo']
+    },{
+        displayName: 'Master IMA',
+        href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/SFPN/M1_IMA',
+        userAuth: {
+            userName: 'student.master',
+            userPassword: 'guest'
+        },
+        ignoreAlarm: true,
+        color: '#ff0000',
+        typeList: ['vevent', 'vtodo']
     }]
 };
 /*
