@@ -118,7 +118,7 @@ var globalSubscribedCalendars = {
     hrefLabel: 'Informatique (Master)',
     calendars: [{
         displayName: 'Info Master',
-        href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/MasterInfo/M1/',
+        href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/MasterInfo/M2/',
         userAuth: {
             userName: 'student.master',
             userPassword: 'guest'
@@ -128,7 +128,7 @@ var globalSubscribedCalendars = {
         typeList: ['vevent', 'vtodo']
     },{
         displayName: 'Master SFPN',
-        href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/SFPN/M1_DAC',
+        href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/SFPN/M2_DAC',
         userAuth: {
             userName: 'student.master',
             userPassword: 'guest'
