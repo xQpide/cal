@@ -144,7 +144,7 @@ var globalSubscribedCalendars = {
         typeList: ['vevent', 'vtodo']
     },{
         displayName: 'Master DAC',
-        href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/SFPN/M2_DAC',
+        href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/DAC/M2_DAC',
         userAuth: {
             userName: 'student.master',
             userPassword: 'guest'
@@ -154,7 +154,7 @@ var globalSubscribedCalendars = {
         typeList: ['vevent', 'vtodo']
     },{
         displayName: 'Master IMA',
-        href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/SFPN/M1_IMA',
+        href: 'https://cal.ufr-info-p6.jussieu.fr:443/caldav.php/DAC/M1_IMA',
         userAuth: {
             userName: 'student.master',
             userPassword: 'guest'
