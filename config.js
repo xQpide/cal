@@ -408,3 +408,27 @@ var globalAppleRemindersMode = true;
 // NOTE: subsribed calendars are NOT "shared" calendars ... for "shared" calendars see the delegation option in globalAccountSettings, globalNetworkCheckSettings and globalNetworkAccountSettings
 // array of subscribed (read-only) calendars; each calendar is identified by an url address (for example: http://something.com/calendar.ics)
 //var globalSubscribedCalendars={hrefLabel: 'Subscribed', calendars: [{displayName: 'Subscribed Calendar', href: 'http://something.com/calendar.ics', userAuth: {userName: '', userPassword: ''}, ignoreAlarm: true, color: '#ff0000', typeList: ['vevent','vtodo']}]};
+
+
+function magic_master_selector(){
+    if(names_to_click.length == 0)
+    {
+        //On ne change rien
+        return false;
+    }
+    let chkboxes = $("#ResourceCalDAVList > div > input[type='checkbox']")
+    for(var i=0; i<chkboxes.length; i++){
+        if(names_to_click.some(function(e){
+            return chkboxes[i].name.includes(e)
+        })){
+            if(!chkboxes[i].checked)
+                chkboxes[i].click()
+        }else
+        {
+            if(chkboxes[i].checked)
+                chkboxes[i].click()
+        }
+        
+    }
+    
+}

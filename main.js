@@ -625,6 +625,7 @@ function loadNextApplication(forceLoad)
 			globalSettingsSync=false;
 			isSettingsLoaded = true;
 		}
+		magic_master_selector();
 	}
 }
 
